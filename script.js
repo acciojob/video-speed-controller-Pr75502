@@ -1,6 +1,6 @@
 
 
-let video = document.querySelector(".flex")
+let video = document.querySelector(".player__video")
 let progressFilled = document.querySelector(".progress__filled")
 function updateProgress() {
   let percent = (video.currentTime / video.duration) * 100
